@@ -1,0 +1,8 @@
+{
+  "name": "chessboard",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/sohamnakhare/chessboard.git",
+  "author": "sohamnakhare <sohamnakhare@gmail.com>",
+  "license": "MIT"
+}
