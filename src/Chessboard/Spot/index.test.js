@@ -7,6 +7,11 @@ describe("Spot", () => {
       expect(spot.location[0]).toBe(1);
     });
 
+    it("should create a spot for valid cell with lowercase X value", () => {
+      const spot = Spot("a1");
+      expect(spot.location[0]).toBe(1);
+    });
+
     it("should throw error for invalid cell location", () => {
       expect(() => Spot("qwe")).toThrow();
     });
