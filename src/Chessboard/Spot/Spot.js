@@ -16,6 +16,8 @@ function Spot(location) {
     throw new Error(Errors.invalidSpot);
   }
 
+  spotXY[1] = spotY;
+
   return {
     location: spotXY
   };
