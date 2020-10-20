@@ -1,5 +1,7 @@
-export const King = currentPosition => {
-  const getAllowedPositions = () => {};
+export const King = () => {
+  const getAllowedPositions = (currentSpot) => {
+
+  };
 
   return {
     getAllowedPositions

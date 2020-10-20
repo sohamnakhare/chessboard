@@ -1,5 +1,5 @@
-export const Horse = currentPosition => {
-    const getAllowedPositions = () => {};
+export const Horse = () => {
+    const getAllowedPositions = (currentSpot) => {};
   
     return {
       getAllowedPositions
