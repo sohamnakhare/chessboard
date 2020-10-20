@@ -26,4 +26,15 @@ describe("Spot", () => {
       expect(() => Spot("L9")).toThrow();
     });
   });
+
+  describe("Spot  ::  getLocationDisplayValue", ()=>{
+    const displayValue = Spot.getLocationDisplayValue([1,8]);
+    expect(displayValue).toBe("A8");
+  });
+
+  describe("Spot  ::  isSpotValid", ()=>{
+    expect(Spot.isSpotValid([1,8])).toBe(true);
+    expect(Spot.isSpotValid([0,7])).toBe(false);
+    expect(Spot.isSpotValid([1,9])).toBe(false);
+  });
 });
